@@ -1,0 +1,18 @@
+name: ACD_Drops
+version: ${project.version}
+main: com.cardiza.glowdrops.GlowDrops
+api-version: 1.18
+authors: [cardiza]
+description: Improved drop system
+load: POSTWORLD
+prefix: GlowDrops
+commands:
+  acdrops:
+    description: Shows the plugin menu
+    usage: /<command>
+  acdrops reload:
+    description: Reloads the plugin
+    usage: /<command>
+  acdrops menu:
+    description: Opens plugin menu
+    usage : /<command>
